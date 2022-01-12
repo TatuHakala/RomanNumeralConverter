@@ -17,6 +17,7 @@ namespace NumbersToRoman
             {
                 //Program closes if the given value is incorrect.
                 Console.WriteLine("Incorrect number or not number at all. Try again.");
+                Console.ReadLine();
                 System.Environment.Exit(0);
             }
 
